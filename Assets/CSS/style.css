@@ -1,0 +1,231 @@
+
+
+body{
+  font-family: 'Cabin', sans-serif;
+  color: #373A3C;
+}
+
+.navbar-brand{
+  font-family: 'Lobster', cursive;
+  font-size: 37px;
+  font-weight: 400;
+  
+}
+
+.navbar-nav{
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#img-principal{
+  width: 100%;
+}
+
+.btn-wrapper{
+  justify-content: space-between;
+  padding-left: 3%;
+}
+
+.carrousel-wrapper{
+  margin-top: 68px;
+}
+
+.carrousel-inner-wraper{
+  padding-left: 13px;
+}
+
+.carrousel-img{
+  width: 24%;
+  /* height: 384px; */
+  display: inline-block
+}
+
+.carousel-indicators li{
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  position: relative;
+  top: 59px;
+  background-color: #373A3C;
+}
+
+.recipe-wrapper{
+  border-top: 2px solid black;
+  margin-top: 50px;
+  padding-left: 8px;
+  margin-left: 13px;
+  margin-right: 32px;
+}
+
+.recipe-title{
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+  width: min-content;
+  padding-bottom: 12px;
+}
+
+.recipe-ingredients-txt{
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.recipe-ingredients-txt span{
+  display: block;
+}
+
+h1{
+font-weight: 600;
+font-size: 40px;
+}
+
+#main{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+hr{
+  background-color: black;
+}
+
+#media-section{
+  display: none;
+}
+
+.related-cards-wrapper{
+  width: 110%;
+  padding-left: 20px;
+  justify-content: safe;
+  margin-top: 100px;
+  border-top: 2px solid black;
+  padding-top: 15px;
+  padding-bottom: 80px;
+}
+.related-cards-title{
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.newsletter{
+  text-align: center;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 197px;
+}
+
+.bg-danger{
+  background-color: #DC3545;
+}
+.newsletter-title{
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+.newsletter-subtitle{
+  color: white;
+  font-size: 30px;
+}
+.newsletter-subtitle span{
+  font-family: Lobster;
+}
+
+.start-btn{
+  margin-top: 40px;
+  width: 233px;
+}
+
+.white-title{
+  color: white;
+}
+.footer-text{
+  font-family: Lobster;
+  font-size: 37px;
+  font-weight: bold;
+}
+footer{
+  text-align: center;
+  padding-top: 18px;
+  padding-bottom: 38px;
+}
+
+@media screen and (max-width: 400px){
+
+  .navbar-brand{
+    margin-left: 1rem;
+  }
+
+  .navbar-toggler{ 
+    margin-right: 1rem;
+  }
+  
+  .jumbotron img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  h1, #main{
+    text-align: center;
+  }
+
+  .jumbotron{
+    padding-top: 0 !important;
+  }
+
+  .btn-wrapper{
+    width: 107%;
+  }
+  .carrousel-wrapper{
+    display: none;
+  }
+  .recipe-wrapper{
+    border:none;
+    margin-top: -30px;
+  }
+  .related-cards-wrapper{
+    margin-top: 20px;
+    padding-bottom: 45px;
+  }
+
+  .related-cards-title{
+    font-size: 25px;
+    width: 60%;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card-col{
+    padding-left: 15px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+  }
+
+  .newsletter{
+    padding-top: 95px;
+    padding-bottom: 95px;
+  }
+  .newsletter-title{
+    font-size: 30px;
+  }
+  .newsletter-subtitle{
+    font-size: 20px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer-text{
+    font-family: Lobster;
+    font-size: 37px;
+    font-weight: bold;
+  }
+  footer{
+    padding-top: 41px;
+    padding-bottom: 34px;
+  }
+  
+}
+
